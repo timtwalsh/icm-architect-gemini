@@ -23,7 +23,7 @@ The paper's canonical shape. The same sequence runs weekly or daily with differe
 
 ```
 workspace/
-├─ CLAUDE.md               identity + routing table
+├─ GEMINI.md               identity + routing table
 ├─ CONTEXT.md              the pipeline in one screen
 ├─ stages/
 │  ├─ 01_research/   {CONTEXT.md, references/, output/}
@@ -49,12 +49,12 @@ Several distinct production lines share one brand, voice, and reference layer. T
 
 ```
 workspace/
-├─ CLAUDE.md               the map: what lives where, which pipeline for which job
+├─ GEMINI.md               the map: what lives where, which pipeline for which job
 ├─ 01-pillars/             shared factory: positioning, pillars
 ├─ 02-brand-voice/         shared factory: voice, style
-├─ 03-video-production/    a full Pipeline workspace (own CLAUDE.md)
-├─ 04-scene-generation/    a full Pipeline workspace (own CLAUDE.md)
-└─ 05-animation-studio/    a full Pipeline workspace (own CLAUDE.md)
+├─ 03-video-production/    a full Pipeline workspace (own GEMINI.md)
+├─ 04-scene-generation/    a full Pipeline workspace (own GEMINI.md)
+└─ 05-animation-studio/    a full Pipeline workspace (own GEMINI.md)
 ```
 
 **Defining moves:**
@@ -94,7 +94,7 @@ The deliverable is a navigable body of knowledge: a brain, a domain wiki, a mode
 
 ```
 workspace/
-├─ CLAUDE.md
+├─ GEMINI.md
 ├─ corpus/                 raw sources + _index.md checkbox manifest (state surface)
 ├─ extraction/             the factory: an ICM Pipeline whose output is the bundle
 └─ bundle/                 the product:
@@ -119,7 +119,7 @@ The subject is a company or team: who does what, what data moves where, what's r
 
 ```
 workspace/
-├─ CLAUDE.md / AGENTS.md   entry (one generated from the other)
+├─ GEMINI.md / AGENTS.md   entry (one generated from the other)
 ├─ FILE-MAP.md             GENERATED index — agents jump here, never crawl
 ├─ _meta/                  the rules: schema.md, maturity-levels.md, ritual docs
 ├─ teams/
@@ -148,9 +148,9 @@ The subject is a tree someone will change: a repository, a markdown vault, or bo
 
 ```
 subject/
-├─ CLAUDE.md                 existing entry — add one row pointing at map/
+├─ GEMINI.md                 existing entry — add one row pointing at map/
 └─ map/
-   ├─ CLAUDE.md              catalog (generate AGENTS.md + routing.md)
+   ├─ GEMINI.md              catalog (generate AGENTS.md + routing.md)
    ├─ CONTEXT.md             universes + name collisions
    ├─ _meta/schema.md
    ├─ _templates/            object.md, process.md

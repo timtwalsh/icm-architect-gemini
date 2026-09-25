@@ -1,6 +1,6 @@
-# icm-architect
+# icm-architect-gemini
 
-A Claude skill that designs any process, idea, or problem into an **ICM workspace** — folder structure as agent architecture — or restructures an existing folder, repo, or vault into one.
+A simple restructure of the very nice [icm-architect](https://github.com/RinDig/icm-architect) claude skill to Gemini that designs any process, idea, or problem into an **ICM workspace** — folder structure as agent architecture — or restructures an existing folder, repo, or vault into one.
 
 ICM (Interpretable Context Methodology) replaces orchestration code with structure: numbered folders carry sequencing, hierarchy carries context scoping, plain markdown files carry state. One agent, reading the right files at the right moment, does the work of a multi-agent framework — and a human can open any folder and see exactly what state the system is in.
 
@@ -22,21 +22,19 @@ Every result is validated with the **walk test**: an agent with no memory must o
 
 ## Install
 
-**Claude Code:** copy this folder to `~/.claude/skills/icm-architect/` (or `.claude/skills/icm-architect/` inside a project), then ask Claude to "ICM this" / "structure this for agents" / "build me a workspace for X".
-
-**Claude apps:** upload `icm-architect.skill` (build it with the skill-creator packager, or zip the `icm-architect/` folder itself — the folder is the zip root, not its contents) via [Customize → Skills](https://claude.ai/customize/skills).
+**Gemini:** copy this folder to your skills directory, then ask Gemini to "ICM this" / "structure this for agents" / "build me a workspace for X".
 
 ## Layout
 
 ```
-icm-architect/
+icm-architect-gemini/
 ├─ SKILL.md              the method: invariants, build mode, restructure mode, walk test
 ├─ references/
 │  ├─ core.md                 five principles, five-layer hierarchy, naming, token discipline
 │  ├─ forms.md                the six forms in depth: skeletons, moves, failure modes
 │  ├─ system-map.md           audit pipeline for the System map form
 │  └─ reference-integrity.md  restructure move-safety gate
-└─ assets/templates/     copyable starters: CLAUDE.md, CONTEXT.md, stage contract,
+└─ assets/templates/     copyable starters: GEMINI.md, CONTEXT.md, stage contract,
                          node card, object/process cards, schema, questionnaire
 ```
 
